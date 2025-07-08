@@ -1,30 +1,10 @@
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from chatbot.LLM.groqLLM import GroqLLM
-from chatbot.Graph.graph import Graph
+from django.shortcuts import render
+from django.views import View
 
-llm = GroqLLM().get_llm()
-graph = Graph(llm).setup_graph()
-class ChatBotView(APIView):
-    """
-    A view to handle chatbot interactions.
-    This view will process user messages and return responses.
-    """
-
-    def post(self, request, *args, **kwargs):
+class ChatBotView(View):
+    def get(self, request):
         """
-        Handle POST requests to the chatbot endpoint.
-        Expects a JSON payload with user input.
+        Render the chatbot interface.
+        This method will return the HTML template for the chatbot.
         """
-        user_message = request.data.get('messages', '')
-
-        if not user_message:
-            return Response({"error": "No message provided"}, status=400)
-
-
-        response = graph.invoke({"messages": [user_message]})
-        ai_response = response["messages"][-1].content
-
-        return Response({
-            "messages": ai_response
-        }, status=200)
+        return render(request, 'chatbot.html')
