@@ -22,7 +22,9 @@ class AgentNode:
         summary = state.get("summary", "")
         if summary:
             system_message += f"Summary of the conversation so far: {summary}\n"
-        response = self.llm_with_tools.invoke({"system": system_message, "messages": state["messages"]})
+
+        user_information = state.get("user_information", {})
+        response = self.llm_with_tools.invoke({"system": system_message, "messages": state["messages"], "user_information": user_information})
         return {"messages": [response]}
 
 class SummarizerNode:
@@ -51,8 +53,8 @@ class SummarizerNode:
             )
         else:
             summary_message = "Create a summary of the conversation above:"
-
-        response = self.llm_without_tools.invoke({"system": system_message, "messages": state["messages"] + [HumanMessage(content=summary_message)]})
+        user_information = state.get("user_information", {})
+        response = self.llm_without_tools.invoke({"system": system_message, "messages": state["messages"] + [HumanMessage(content=summary_message)], "user_information": user_information})
         delete_messages = [RemoveMessage(id=m.id) for m in state["messages"][:-2]]
         print("delete_messages:", delete_messages)
         return {"messages": delete_messages, "summary": response.content}

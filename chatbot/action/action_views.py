@@ -30,15 +30,16 @@ class ChatBotAPIView(APIView):
         }
 
         human_message = HumanMessage(content=user_message)
-
-        response = graph.invoke({"messages": [human_message]}, config=config)
+        user = request.user
+        user_information = {
+            "user_id": user.id,
+            "name": user.name,
+            "email": user.email
+        }
+        print("user_information:", user_information)
+        response = graph.invoke({"messages": [human_message], "user_information": user_information}, config=config)
         ai_response = response["messages"][-1].content
-        # print("Full response:", response)
-        # for message in response["messages"]:
-        #     if isinstance(message, AIMessage):
-        #         print("AI Message:", message)
-        #     elif isinstance(message, HumanMessage):
-        #         print("Human Message:", message)
+
         print("length of state messages:", len(response["messages"]))
         print("summary: ", response.get("summary", "No summary available"))
         return Response({"messages": ai_response}, status=200)

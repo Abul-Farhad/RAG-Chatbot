@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # Custom user app
     'user',
     'chatbot',
+    'admin_portal'
 
 
 ]

@@ -6,3 +6,4 @@ class State(TypedDict):
     """Represent the structure of the state used in the graph workflow."""
     messages: Annotated[List[BaseMessage], add_messages]
     summary: str
+    user_information: dict

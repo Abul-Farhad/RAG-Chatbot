@@ -12,6 +12,7 @@ class GroqLLM:
         self.prompt = ChatPromptTemplate.from_messages(
             [
                 ("system", "{system}"),
+                ("human", "{user_information}"),
                 MessagesPlaceholder("messages")
             ]
         )

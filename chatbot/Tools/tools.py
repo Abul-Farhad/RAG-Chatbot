@@ -1,6 +1,10 @@
 from chatbot.vector_db.chat_memory_manager import ChatMemoryManager
 from chatbot.vector_db.chroma_db import vector_store
 from langchain.tools import tool
+from admin_portal.models import Issue
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
 
 # @tool
 # def retrieve_memory(query: str, session_id: str) -> str:
@@ -23,4 +27,41 @@ from langchain.tools import tool
 #     print("Formatted results: ", result)
 #     return result
 
-tools = []
+
+@tool
+def create_issue(user_id: int, title: str, description: str) -> str:
+    """
+    Create an issue with the given title and description in the admin_portal model named 'Issue'
+
+    Args:
+        user_id (int): The ID of the user creating the issue.
+        title (str): The title of the issue.
+        description (str): The description of the issue.
+
+    Returns:
+        str: Confirmation message indicating the issue has been created.
+    """
+    print("--- Creating Issue ---")
+    try:
+        # Fetch the user instance
+        user = User.objects.get(id=user_id)
+        print("User found:", user)
+
+        # Create the issue
+        issue = Issue.objects.create(
+            issued_by=user,
+            title=title,
+            description=description
+        )
+
+        print(f"Issue created with ID: {issue.id}")
+        return f"Issue '{title}' has been successfully created with ID: {issue.id}."
+    except User.DoesNotExist:
+        print("User not found.")
+        return "Error: User not found."
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return f"Error: {str(e)}"
+
+
+tools = [create_issue]
