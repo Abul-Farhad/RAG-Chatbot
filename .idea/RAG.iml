@@ -14,7 +14,9 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/chatbot/FakeData/smartphone_vector_db" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.12 (RAG)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

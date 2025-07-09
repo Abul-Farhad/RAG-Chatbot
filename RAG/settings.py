@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     # Custom user app
     'user',
     'chatbot',
-    'admin_portal'
+    'admin_portal',
 
 
 ]
@@ -53,6 +53,7 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+    # 'middleware.custom_middleware.LoginRequiredMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]

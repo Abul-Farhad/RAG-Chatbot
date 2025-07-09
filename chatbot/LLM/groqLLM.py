@@ -8,11 +8,12 @@ load_dotenv()
 
 class GroqLLM:
     def __init__(self):
-        self.llm = ChatGroq(model='gemma2-9b-it', api_key=os.getenv('GROQ_API_KEY'))
+        # self.llm = ChatGroq(model='gemma2-9b-it', api_key=os.getenv('GROQ_API_KEY'))
+        self.llm = ChatGroq(model='deepseek-r1-distill-llama-70b', api_key=os.getenv('GROQ_API_KEY'))
         self.prompt = ChatPromptTemplate.from_messages(
             [
                 ("system", "{system}"),
-                ("human", "{user_information}"),
+                ("system", "Here is the user information: {user_information}"),
                 MessagesPlaceholder("messages")
             ]
         )

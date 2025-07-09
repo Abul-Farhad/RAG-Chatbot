@@ -1,9 +1,10 @@
-from chatbot.vector_db.chat_memory_manager import ChatMemoryManager
-from chatbot.vector_db.chroma_db import vector_store
+import json
+
+from langchain_core.documents import Document
 from langchain.tools import tool
 from admin_portal.models import Issue
 from django.contrib.auth import get_user_model
-
+from chatbot.FakeData.fake_smartphone_data import get_smartphone_retriever
 User = get_user_model()
 
 # @tool
@@ -54,8 +55,8 @@ def create_issue(user_id: int, title: str, description: str) -> str:
             description=description
         )
 
-        print(f"Issue created with ID: {issue.id}")
-        return f"Issue '{title}' has been successfully created with ID: {issue.id}."
+        print(f"Issue created with ID: {issue.id}, and title: {issue.title}")
+        return f"Issue '{issue.title}' has been successfully created with ID: {issue.id}."
     except User.DoesNotExist:
         print("User not found.")
         return "Error: User not found."
@@ -63,5 +64,26 @@ def create_issue(user_id: int, title: str, description: str) -> str:
         print(f"An error occurred: {e}")
         return f"Error: {str(e)}"
 
+@tool
+def retrieve_smartphone_data(query: str) -> str:
+    """
+    Retrieve smartphone data using a search query.
 
-tools = [create_issue]
+    Arguments:
+    query: The search term (e.g., "iPhone").
+    """
+    print("--- SmartPhoneData Retriever Called ---")
+    retriever = get_smartphone_retriever()
+    results = retriever.get_relevant_documents(query=query, k = 10)
+    # return "Here is the retrieved information:\nIphone SE is a lightweight powerful smartphone with cool features"
+    def formatted_result(docs):
+        final_result = "\n".join(doc.page_content for doc in docs)
+        return final_result
+    final_results = f"Here is retrieved smartphone data:\n{formatted_result(results)}"
+
+    print(json.dumps({
+        "query": query,
+        "final_result": final_results
+    }, indent=4))
+    return final_results
+tools = [create_issue, retrieve_smartphone_data]

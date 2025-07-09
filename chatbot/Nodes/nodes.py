@@ -18,7 +18,16 @@ class AgentNode:
             dict: A dictionary containing the agent's response.
         """
         print("--- Agent Node Called ---")
-        system_message = f"Your name is Shoppio, an AI assistant designed to help users with their shopping needs."
+        system_message = f"""You are Shoppio, an AI assistant designed to help users with their shopping-related needs.
+Use tool retrieve_smartphone_data, if user asked about smartphones. The smartphone prices are in Bdt.
+Create an issue only when the user explicitly requests it.
+If the user encounters a problem or you lack the necessary access to perform a task, politely ask if they would like to create an issue for it.
+If an issue has already been created, apologize for the inconvenience and confirm that the issue has been successfully created. Include the issue title in your response."""
+#         system_message = f"""Your name is Shoppio, an AI assistant designed to help users with their shopping needs.
+# Do not create issue regarding greetings, farewells, or other non-shopping related topics.
+# Create issue only if the user explicitly asks for it .
+# If you do not have any access for any functionality or the user is facing trouble, politely ask whether the user want to create that as an issue or not.
+# If you found any issue has been created, apology to the user for that problem and tell the issue is successfully created with title"""
         summary = state.get("summary", "")
         if summary:
             system_message += f"Summary of the conversation so far: {summary}\n"
@@ -43,7 +52,7 @@ class SummarizerNode:
             dict: A dictionary containing the summary of the conversation.
         """
         print("--- Summarizer Node Called ---")
-        system_message = "You are a summarizer that condenses the conversation into a concise summary."
+        system_message = f"""You are a summarizer that condenses the conversation into a concise summary."""
         summary = state.get("summary", "")
         summary = state.get("summary", "")
         if summary:
