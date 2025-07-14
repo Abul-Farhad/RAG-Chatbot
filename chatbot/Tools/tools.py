@@ -74,7 +74,7 @@ def retrieve_smartphone_data(query: str) -> str:
     """
     print("--- SmartPhoneData Retriever Called ---")
     retriever = get_smartphone_retriever()
-    results = retriever.get_relevant_documents(query=query, k = 10)
+    results = retriever.get_relevant_documents(query=query, k = 20)
     # return "Here is the retrieved information:\nIphone SE is a lightweight powerful smartphone with cool features"
     def formatted_result(docs):
         final_result = "\n".join(doc.page_content for doc in docs)

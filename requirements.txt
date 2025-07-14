@@ -19,3 +19,5 @@ langchain-chroma
 ipython
 django
 djangorestframework
+langchain-openai
+azure-ai-inference

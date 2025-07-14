@@ -2,3 +2,4 @@
 .env
 db.sqlite3
 smartphone_vector_db/
+others/

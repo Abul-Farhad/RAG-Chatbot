@@ -4,7 +4,6 @@ from langchain_core.messages import HumanMessage, AIMessage
 from langgraph.checkpoint.memory import MemorySaver
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from chatbot.LLM.groqLLM import GroqLLM
 from chatbot.Graph.graph import Graph
 from chatbot.CustomMemorySaver.postgres_memory_saver import PostgresMemorySaver
 
@@ -36,10 +35,11 @@ class ChatBotAPIView(APIView):
             "name": user.name,
             "email": user.email
         }
-        print("user_information:", user_information)
+        # print("user_information:", user_information)
         response = graph.invoke({"messages": [human_message], "user_information": user_information}, config=config)
         ai_response = response["messages"][-1].content
 
-        print("length of state messages:", len(response["messages"]))
-        print("summary: ", response.get("summary", "No summary available"))
+
+        # print("length of state messages:", len(response["messages"]))
+        # print("summary: ", response.get("summary", "No summary available"))
         return Response({"messages": ai_response}, status=200)

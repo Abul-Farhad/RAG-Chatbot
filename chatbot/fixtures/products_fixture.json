@@ -1,0 +1,1352 @@
+[
+    {
+        "model": "chatbot.product",
+        "pk": 1,
+        "fields": {
+            "brand": "Apple",
+            "model": "iPhone 16 Pro",
+            "price": 120000,
+            "quantity": 45,
+            "reviews": {
+                "techLover42": "Amazing camera quality!",
+                "mobileExpert": "Worth every penny",
+                "newUser": "Battery life could be better"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 2,
+        "fields": {
+            "brand": "Samsung",
+            "model": "Galaxy S24 Ultra",
+            "price": 115000,
+            "quantity": 38,
+            "reviews": {
+                "androidFan": "Best Android phone ever!",
+                "photographyPro": "200MP camera is incredible",
+                "casualUser": "Too big for my hands"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 3,
+        "fields": {
+            "brand": "Xiaomi",
+            "model": "Mi 14 Pro",
+            "price": 85000,
+            "quantity": 72,
+            "reviews": {
+                "budgetBuyer": "Great value for money",
+                "gamer123": "Lag-free performance",
+                "oldCustomer": "MIUI has too many ads"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 4,
+        "fields": {
+            "brand": "OnePlus",
+            "model": "12 Pro",
+            "price": 95000,
+            "quantity": 56,
+            "reviews": {
+                "oxygenOSfan": "Cleanest Android experience",
+                "speedDemon": "Blazing fast charging",
+                "critic101": "Camera not flagship quality"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 5,
+        "fields": {
+            "brand": "Google",
+            "model": "Pixel 8 Pro",
+            "price": 105000,
+            "quantity": 29,
+            "reviews": {
+                "photoGeek": "Best computational photography",
+                "aiEnthusiast": "AI features are revolutionary",
+                "batteryUser": "Battery drains too fast"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 6,
+        "fields": {
+            "brand": "Oppo",
+            "model": "Find X7",
+            "price": 92000,
+            "quantity": 41,
+            "reviews": {
+                "designLover": "Most beautiful phone design",
+                "selfieExpert": "Front camera is amazing",
+                "powerUser": "ColorOS needs improvement"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 7,
+        "fields": {
+            "brand": "Vivo",
+            "model": "X100 Pro",
+            "price": 88000,
+            "quantity": 63,
+            "reviews": {
+                "cameraPro": "Zeiss optics are superb",
+                "musicLover": "Best audio quality",
+                "minimalist": "Too many pre-installed apps"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 8,
+        "fields": {
+            "brand": "Realme",
+            "model": "GT 3 Pro",
+            "price": 65000,
+            "quantity": 89,
+            "reviews": {
+                "performanceBuff": "Flagship specs at mid-range price",
+                "youngUser": "Cool design with LED back",
+                "seniorUser": "UI is too complicated"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 9,
+        "fields": {
+            "brand": "Nothing",
+            "model": "Phone (3)",
+            "price": 75000,
+            "quantity": 34,
+            "reviews": {
+                "techEnthusiast": "Unique transparent design",
+                "glyphFan": "LED interface is innovative",
+                "practicalUser": "Gimmicky features"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 10,
+        "fields": {
+            "brand": "Asus",
+            "model": "ROG Phone 7",
+            "price": 110000,
+            "quantity": 22,
+            "reviews": {
+                "mobileGamer": "Best gaming phone period",
+                "streamerPro": "Built-in cooling is awesome",
+                "normalUser": "Too heavy for daily use"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 11,
+        "fields": {
+            "brand": "Apple",
+            "model": "iPhone 15",
+            "price": 95000,
+            "quantity": 58,
+            "reviews": {
+                "appleFan": "Classic iPhone experience",
+                "upgrader": "Good upgrade from iPhone 12",
+                "valueCritic": "Not enough new features"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 12,
+        "fields": {
+            "brand": "Samsung",
+            "model": "Galaxy Z Fold 5",
+            "price": 165000,
+            "quantity": 15,
+            "reviews": {
+                "earlyAdopter": "Future of smartphones",
+                "productivityPro": "Great for multitasking",
+                "durabilityWorrier": "Still nervous about folding screen"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 13,
+        "fields": {
+            "brand": "Huawei",
+            "model": "P60 Pro",
+            "price": 105000,
+            "quantity": 27,
+            "reviews": {
+                "cameraExpert": "Leica cameras are unmatched",
+                "chinaMarket": "Best phone without Google",
+                "googleUser": "App ecosystem is problematic"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 14,
+        "fields": {
+            "brand": "Motorola",
+            "model": "Edge 40 Ultra",
+            "price": 82000,
+            "quantity": 36,
+            "reviews": {
+                "stockAndroidFan": "Clean Android experience",
+                "batteryLife": "2-day battery easily",
+                "cameraCritic": "Software processing could be better"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 15,
+        "fields": {
+            "brand": "Nokia",
+            "model": "X50 5G",
+            "price": 55000,
+            "quantity": 64,
+            "reviews": {
+                "nostalgiaUser": "Nokia is back!",
+                "durabilityFan": "Built like a tank",
+                "performanceUser": "Mid-range specs at mid-range price"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 16,
+        "fields": {
+            "brand": "Sony",
+            "model": "Xperia 1 V",
+            "price": 125000,
+            "quantity": 18,
+            "reviews": {
+                "photographer": "Pro-level camera controls",
+                "mediaConsumer": "Best smartphone display",
+                "averageUser": "Too expensive for what it offers"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 17,
+        "fields": {
+            "brand": "Apple",
+            "model": "iPhone SE (2024)",
+            "price": 65000,
+            "quantity": 72,
+            "reviews": {
+                "smallPhoneFan": "Perfect compact size",
+                "budgetApple": "Great way into Apple ecosystem",
+                "modernUser": "Outdated design"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 18,
+        "fields": {
+            "brand": "Samsung",
+            "model": "Galaxy A54",
+            "price": 45000,
+            "quantity": 95,
+            "reviews": {
+                "valueBuyer": "Best mid-range phone",
+                "longTermUser": "Gets 4 years of updates",
+                "performanceSeeker": "Could use more RAM"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 19,
+        "fields": {
+            "brand": "Xiaomi",
+            "model": "Redmi Note 13 Pro+",
+            "price": 42000,
+            "quantity": 110,
+            "reviews": {
+                "bangForBuck": "Unbeatable at this price",
+                "chinaPhoneFan": "MIUI keeps improving",
+                "updateWorrier": "Only 2 years of updates"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 20,
+        "fields": {
+            "brand": "OnePlus",
+            "model": "Nord 3",
+            "price": 50000,
+            "quantity": 68,
+            "reviews": {
+                "formerFlagship": "Flagship features at half price",
+                "oxygenOSlover": "Clean software experience",
+                "cameraUser": "Average camera performance"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 21,
+        "fields": {
+            "brand": "Google",
+            "model": "Pixel 7a",
+            "price": 55000,
+            "quantity": 53,
+            "reviews": {
+                "androidPurist": "Best stock Android experience",
+                "aiFan": "Magic Eraser is magical",
+                "hardwareCritic": "Feels cheap compared to others"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 22,
+        "fields": {
+            "brand": "Oppo",
+            "model": "Reno 10 Pro",
+            "price": 60000,
+            "quantity": 47,
+            "reviews": {
+                "selfieLover": "Best front camera under 70k",
+                "designEnthusiast": "Beautiful gradient colors",
+                "performanceUser": "Mediocre chipset"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 23,
+        "fields": {
+            "brand": "Vivo",
+            "model": "V29 Pro",
+            "price": 58000,
+            "quantity": 62,
+            "reviews": {
+                "portraitMaster": "Best portrait mode",
+                "styleUser": "Sleek and lightweight",
+                "uiHater": "Funtouch OS needs work"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 24,
+        "fields": {
+            "brand": "Realme",
+            "model": "11 Pro+",
+            "price": 48000,
+            "quantity": 84,
+            "reviews": {
+                "fastCharger": "100W charging is insane",
+                "youthUser": "Trendy design",
+                "brandSkeptic": "Realme needs better brand image"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 25,
+        "fields": {
+            "brand": "Nothing",
+            "model": "Phone (2a)",
+            "price": 40000,
+            "quantity": 76,
+            "reviews": {
+                "glyphLover": "Unique design at this price",
+                "techEnthusiast": "Great specs for money",
+                "mainstreamUser": "Weird brand name"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 26,
+        "fields": {
+            "brand": "Asus",
+            "model": "Zenfone 10",
+            "price": 75000,
+            "quantity": 29,
+            "reviews": {
+                "compactPhoneFan": "Perfect small flagship",
+                "audioPhile": "Best headphone jack output",
+                "cameraUser": "Average camera system"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 27,
+        "fields": {
+            "brand": "Apple",
+            "model": "iPhone 14 Plus",
+            "price": 90000,
+            "quantity": 41,
+            "reviews": {
+                "bigScreenFan": "Great battery life",
+                "lateAdopter": "Same design as 13",
+                "valueCritic": "60Hz in 2024? Really?"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 28,
+        "fields": {
+            "brand": "Samsung",
+            "model": "Galaxy S23 FE",
+            "price": 70000,
+            "quantity": 55,
+            "reviews": {
+                "exynosHater": "Thankfully has Snapdragon",
+                "fanEditionFan": "Great value flagship",
+                "sPenUser": "Miss the Note series"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 29,
+        "fields": {
+            "brand": "Xiaomi",
+            "model": "Black Shark 6",
+            "price": 85000,
+            "quantity": 23,
+            "reviews": {
+                "esportsGamer": "Best gaming triggers",
+                "performanceUser": "No thermal throttling",
+                "normalUser": "Too aggressive design"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 30,
+        "fields": {
+            "brand": "OnePlus",
+            "model": "10T",
+            "price": 75000,
+            "quantity": 38,
+            "reviews": {
+                "speedFreak": "Fastest charging available",
+                "oxygenOSfan": "Still prefer older versions",
+                "alertSliderFan": "Why remove the alert slider?"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 31,
+        "fields": {
+            "brand": "Google",
+            "model": "Pixel Fold",
+            "price": 150000,
+            "quantity": 12,
+            "reviews": {
+                "foldableFan": "Best foldable software",
+                "androidDev": "Pure Android on foldable",
+                "durabilityWorrier": "Screen crease visible"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 32,
+        "fields": {
+            "brand": "Oppo",
+            "model": "Find N2 Flip",
+            "price": 110000,
+            "quantity": 19,
+            "reviews": {
+                "flipPhoneFan": "Most functional cover screen",
+                "styleUser": "So compact when folded",
+                "batteryCritic": "Small battery for price"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 33,
+        "fields": {
+            "brand": "Vivo",
+            "model": "X Flip",
+            "price": 105000,
+            "quantity": 16,
+            "reviews": {
+                "fashionUser": "Beautiful vegan leather",
+                "selfieLover": "Great hinge for angles",
+                "powerUser": "Not for heavy multitasking"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 34,
+        "fields": {
+            "brand": "Realme",
+            "model": "GT Neo 5",
+            "price": 52000,
+            "quantity": 67,
+            "reviews": {
+                "speedDemon": "240W charging is future",
+                "techEnthusiast": "LED back is cool",
+                "casualUser": "Overkill for my needs"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 35,
+        "fields": {
+            "brand": "Nothing",
+            "model": "Phone (1)",
+            "price": 50000,
+            "quantity": 42,
+            "reviews": {
+                "firstGenUser": "Amazing for first attempt",
+                "glyphLover": "Unique notification system",
+                "mainstreamUser": "Camera needs improvement"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 36,
+        "fields": {
+            "brand": "Asus",
+            "model": "ROG Phone 6D",
+            "price": 95000,
+            "quantity": 21,
+            "reviews": {
+                "hardcoreGamer": "Air triggers are game-changing",
+                "streamer": "Best gaming accessories",
+                "normalUser": "Too thick and heavy"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 37,
+        "fields": {
+            "brand": "Apple",
+            "model": "iPhone 14 Pro Max",
+            "price": 130000,
+            "quantity": 33,
+            "reviews": {
+                "proUser": "Dynamic Island is useful",
+                "photographer": "48MP RAW is pro-level",
+                "valueCritic": "Too expensive for minor upgrades"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 38,
+        "fields": {
+            "brand": "Samsung",
+            "model": "Galaxy Z Flip 5",
+            "price": 115000,
+            "quantity": 25,
+            "reviews": {
+                "styleUser": "Most stylish phone",
+                "compactFan": "Fits in small pockets",
+                "batteryUser": "Battery could be better"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 39,
+        "fields": {
+            "brand": "Xiaomi",
+            "model": "13T Pro",
+            "price": 75000,
+            "quantity": 48,
+            "reviews": {
+                "leicaFan": "Leica tuning makes difference",
+                "performanceUser": "Dimensity 9200+ is powerful",
+                "miuiHater": "Still too many ads"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 40,
+        "fields": {
+            "brand": "OnePlus",
+            "model": "11R",
+            "price": 65000,
+            "quantity": 59,
+            "reviews": {
+                "valueBuyer": "Flagship chip at lower price",
+                "gamer": "Great cooling system",
+                "cameraUser": "No Hasselblad tuning"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 41,
+        "fields": {
+            "brand": "Google",
+            "model": "Pixel 7",
+            "price": 80000,
+            "quantity": 37,
+            "reviews": {
+                "androidLover": "Best software experience",
+                "photographyFan": "Magic Eraser is useful",
+                "hardwareCritic": "Tensor chip needs work"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 42,
+        "fields": {
+            "brand": "Oppo",
+            "model": "A98 5G",
+            "price": 38000,
+            "quantity": 88,
+            "reviews": {
+                "budgetUser": "Great 5G phone under 40k",
+                "batteryLife": "2-day battery easily",
+                "performanceUser": "Only Snapdragon 4 series"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 43,
+        "fields": {
+            "brand": "Vivo",
+            "model": "T2 Pro",
+            "price": 42000,
+            "quantity": 74,
+            "reviews": {
+                "amoledLover": "Great AMOLED at this price",
+                "selfieUser": "Good front camera",
+                "gamer": "Not for heavy gaming"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 44,
+        "fields": {
+            "brand": "Realme",
+            "model": "C55",
+            "price": 25000,
+            "quantity": 120,
+            "reviews": {
+                "entryLevel": "Best phone under 25k",
+                "miniCapUser": "Mini capsule is useful",
+                "performanceUser": "Only Helio G88"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 45,
+        "fields": {
+            "brand": "Nothing",
+            "model": "Phone (2)",
+            "price": 70000,
+            "quantity": 45,
+            "reviews": {
+                "glyphLover": "Improved glyph interface",
+                "designFan": "Unique transparent design",
+                "mainstreamUser": "Still niche appeal"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 46,
+        "fields": {
+            "brand": "Asus",
+            "model": "Zenfone 9",
+            "price": 65000,
+            "quantity": 31,
+            "reviews": {
+                "compactFan": "Perfect one-hand size",
+                "audioPhile": "Great headphone output",
+                "cameraUser": "Average camera performance"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 47,
+        "fields": {
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "price": 75000,
+            "quantity": 52,
+            "reviews": {
+                "valueApple": "Best value iPhone now",
+                "batteryUser": "Great battery life",
+                "displayCritic": "60Hz feels outdated"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 48,
+        "fields": {
+            "brand": "Samsung",
+            "model": "Galaxy M54",
+            "price": 50000,
+            "quantity": 68,
+            "reviews": {
+                "batteryKing": "7000mAh lasts forever",
+                "midRangeUser": "Good all-rounder",
+                "performanceUser": "Exynos could be better"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 49,
+        "fields": {
+            "brand": "Xiaomi",
+            "model": "Poco F5",
+            "price": 45000,
+            "quantity": 79,
+            "reviews": {
+                "performanceBuff": "Snapdragon 7+ Gen 2 is flagship-level",
+                "gamer": "Great for gaming",
+                "miuiHater": "Too many MIUI bugs"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 50,
+        "fields": {
+            "brand": "OnePlus",
+            "model": "Nord CE 3",
+            "price": 35000,
+            "quantity": 92,
+            "reviews": {
+                "budgetUser": "Good core experience",
+                "oxygenOSfan": "Clean software",
+                "cameraUser": "Basic camera setup"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 51,
+        "fields": {
+            "brand": "Google",
+            "model": "Pixel 6a",
+            "price": 50000,
+            "quantity": 61,
+            "reviews": {
+                "androidPurist": "Best software updates",
+                "valueBuyer": "Tensor chip at good price",
+                "displayCritic": "Only 60Hz display"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 52,
+        "fields": {
+            "brand": "Oppo",
+            "model": "Reno 8T",
+            "price": 40000,
+            "quantity": 73,
+            "reviews": {
+                "selfieLover": "Great 108MP camera",
+                "designUser": "Nice curved display",
+                "performanceUser": "Helio chip is weak"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 53,
+        "fields": {
+            "brand": "Vivo",
+            "model": "Y56",
+            "price": 30000,
+            "quantity": 105,
+            "reviews": {
+                "budgetBuyer": "Good AMOLED under 30k",
+                "batteryUser": "5000mAh lasts long",
+                "performanceUser": "Only Snapdragon 680"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 54,
+        "fields": {
+            "brand": "Realme",
+            "model": "10 Pro+",
+            "price": 42000,
+            "quantity": 81,
+            "reviews": {
+                "displayLover": "Great curved AMOLED",
+                "fastCharger": "67W charging is fast",
+                "performanceUser": "Dimensity 1080 is mid-range"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 55,
+        "fields": {
+            "brand": "Nothing",
+            "model": "Phone (1) Special Edition",
+            "price": 55000,
+            "quantity": 28,
+            "reviews": {
+                "collector": "Unique white color",
+                "glyphFan": "Same great glyph interface",
+                "valueCritic": "Just a color change for more money"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 56,
+        "fields": {
+            "brand": "Asus",
+            "model": "ROG Phone 5s",
+            "price": 85000,
+            "quantity": 19,
+            "reviews": {
+                "gamer": "Best touch response",
+                "accessoryFan": "Cool external fan",
+                "normalUser": "Too gamer-centric"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 57,
+        "fields": {
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "price": 60000,
+            "quantity": 47,
+            "reviews": {
+                "entryApple": "Cheapest way to iOS",
+                "batteryCritic": "Small battery",
+                "displayUser": "OLED is still good"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 58,
+        "fields": {
+            "brand": "Samsung",
+            "model": "Galaxy A34",
+            "price": 40000,
+            "quantity": 89,
+            "reviews": {
+                "valueBuyer": "Great Samsung under 40k",
+                "updateLover": "4 years of updates",
+                "performanceUser": "Exynos is mediocre"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 59,
+        "fields": {
+            "brand": "Xiaomi",
+            "model": "Redmi 12 5G",
+            "price": 25000,
+            "quantity": 115,
+            "reviews": {
+                "budget5G": "Cheapest 5G phone",
+                "basicUser": "Good for basics",
+                "performanceUser": "Only Snapdragon 4 Gen 1"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 60,
+        "fields": {
+            "brand": "OnePlus",
+            "model": "Nord N30",
+            "price": 30000,
+            "quantity": 97,
+            "reviews": {
+                "budget5G": "Good 5G at this price",
+                "oxygenOSfan": "Cleaner than ColorOS",
+                "performanceUser": "Only Snapdragon 695"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 61,
+        "fields": {
+            "brand": "Google",
+            "model": "Pixel 5a",
+            "price": 45000,
+            "quantity": 43,
+            "reviews": {
+                "cameraLover": "Great camera for price",
+                "stockAndroid": "Clean software",
+                "hardwareCritic": "Older Snapdragon 765G"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 62,
+        "fields": {
+            "brand": "Oppo",
+            "model": "A78",
+            "price": 32000,
+            "quantity": 102,
+            "reviews": {
+                "batteryUser": "67W charging at this price",
+                "basicUser": "Good for daily use",
+                "gamer": "Not for gaming"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 63,
+        "fields": {
+            "brand": "Vivo",
+            "model": "Y22s",
+            "price": 28000,
+            "quantity": 110,
+            "reviews": {
+                "batteryKing": "5000mAh lasts 2 days",
+                "basicUser": "Good enough",
+                "performanceUser": "Only Snapdragon 680"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 64,
+        "fields": {
+            "brand": "Realme",
+            "model": "C35",
+            "price": 22000,
+            "quantity": 125,
+            "reviews": {
+                "entryLevel": "Best under 25k",
+                "batteryUser": "Great battery life",
+                "performanceUser": "Only Unisoc chip"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 65,
+        "fields": {
+            "brand": "Nothing",
+            "model": "Phone (1) Lite",
+            "price": 35000,
+            "quantity": 64,
+            "reviews": {
+                "glyphFan": "Same design language",
+                "budgetUser": "More affordable Nothing",
+                "performanceUser": "Mid-range specs"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 66,
+        "fields": {
+            "brand": "Asus",
+            "model": "Zenfone 8",
+            "price": 55000,
+            "quantity": 27,
+            "reviews": {
+                "compactFan": "Perfect small phone",
+                "audioPhile": "Great audio quality",
+                "cameraUser": "Average cameras"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 67,
+        "fields": {
+            "brand": "Apple",
+            "model": "iPhone SE (2022)",
+            "price": 50000,
+            "quantity": 59,
+            "reviews": {
+                "homeButtonFan": "Last home button iPhone",
+                "performanceUser": "A15 is powerful",
+                "designCritic": "Ancient design"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 68,
+        "fields": {
+            "brand": "Samsung",
+            "model": "Galaxy F14",
+            "price": 28000,
+            "quantity": 98,
+            "reviews": {
+                "batteryUser": "6000mAh is massive",
+                "budgetUser": "Good Samsung under 30k",
+                "performanceUser": "Exynos is weak"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 69,
+        "fields": {
+            "brand": "Xiaomi",
+            "model": "Redmi A2",
+            "price": 15000,
+            "quantity": 150,
+            "reviews": {
+                "ultraBudget": "Cheapest decent phone",
+                "basicUser": "Good for calls and WhatsApp",
+                "performanceUser": "Very basic specs"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 70,
+        "fields": {
+            "brand": "OnePlus",
+            "model": "Nord CE 2 Lite",
+            "price": 28000,
+            "quantity": 87,
+            "reviews": {
+                "budget5G": "Cheapest OnePlus 5G",
+                "brandLover": "OnePlus experience",
+                "performanceUser": "Only Snapdragon 695"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 71,
+        "fields": {
+            "brand": "Google",
+            "model": "Pixel 4a",
+            "price": 35000,
+            "quantity": 39,
+            "reviews": {
+                "cameraLover": "Great camera still",
+                "compactUser": "Perfect size",
+                "hardwareCritic": "Old Snapdragon 730G"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 72,
+        "fields": {
+            "brand": "Oppo",
+            "model": "A17",
+            "price": 20000,
+            "quantity": 130,
+            "reviews": {
+                "entryLevel": "Basic smartphone",
+                "batteryUser": "Good battery life",
+                "performanceUser": "Very basic MediaTek"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 73,
+        "fields": {
+            "brand": "Vivo",
+            "model": "Y16",
+            "price": 22000,
+            "quantity": 118,
+            "reviews": {
+                "budgetUser": "Good design for price",
+                "basicUser": "Fine for social media",
+                "gamer": "Not for games"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 74,
+        "fields": {
+            "brand": "Realme",
+            "model": "C33",
+            "price": 18000,
+            "quantity": 140,
+            "reviews": {
+                "ultraBudget": "Cheapest Realme",
+                "firstPhone": "Good first smartphone",
+                "performanceUser": "Very basic Unisoc"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 75,
+        "fields": {
+            "brand": "Motorola",
+            "model": "G32",
+            "price": 25000,
+            "quantity": 92,
+            "reviews": {
+                "stockAndroid": "Clean Android experience",
+                "budgetUser": "Good all-rounder",
+                "performanceUser": "Only Snapdragon 680"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 76,
+        "fields": {
+            "brand": "Nokia",
+            "model": "G21",
+            "price": 23000,
+            "quantity": 85,
+            "reviews": {
+                "durabilityFan": "Nokia build quality",
+                "updateLover": "3 years of updates",
+                "performanceUser": "Unisoc chip is weak"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 77,
+        "fields": {
+            "brand": "Tecno",
+            "model": "Camon 20",
+            "price": 30000,
+            "quantity": 78,
+            "reviews": {
+                "cameraLover": "Good cameras for price",
+                "designUser": "Nice leather finish",
+                "performanceUser": "Only Helio G99"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 78,
+        "fields": {
+            "brand": "Infinix",
+            "model": "Note 30",
+            "price": 28000,
+            "quantity": 89,
+            "reviews": {
+                "batteryUser": "68W fast charging",
+                "budgetUser": "Good features for price",
+                "performanceUser": "Only Helio G99"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 79,
+        "fields": {
+            "brand": "Apple",
+            "model": "iPhone 11",
+            "price": 45000,
+            "quantity": 62,
+            "reviews": {
+                "valueApple": "Cheapest good iPhone",
+                "LCDUser": "Last good LCD iPhone",
+                "modernUser": "No 5G, thick bezels"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 80,
+        "fields": {
+            "brand": "Samsung",
+            "model": "Galaxy A14",
+            "price": 25000,
+            "quantity": 105,
+            "reviews": {
+                "budgetUser": "Good Samsung under 25k",
+                "updateLover": "4 years of updates",
+                "performanceUser": "Exynos 850 is weak"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 81,
+        "fields": {
+            "brand": "Xiaomi",
+            "model": "Redmi 10",
+            "price": 20000,
+            "quantity": 135,
+            "reviews": {
+                "valueBuyer": "Best under 20k",
+                "batteryUser": "5000mAh lasts long",
+                "miuiHater": "Too many ads"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 82,
+        "fields": {
+            "brand": "OnePlus",
+            "model": "Nord N20",
+            "price": 32000,
+            "quantity": 74,
+            "reviews": {
+                "budget5G": "Good 5G option",
+                "designUser": "Nice flat AMOLED",
+                "performanceUser": "Only Snapdragon 695"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 83,
+        "fields": {
+            "brand": "Google",
+            "model": "Pixel 3a",
+            "price": 30000,
+            "quantity": 28,
+            "reviews": {
+                "cameraLover": "Still great camera",
+                "compactUser": "Nice small size",
+                "hardwareCritic": "Very old at this point"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 84,
+        "fields": {
+            "brand": "Oppo",
+            "model": "A57",
+            "price": 22000,
+            "quantity": 115,
+            "reviews": {
+                "budgetUser": "Basic Oppo phone",
+                "selfieLover": "Good front camera",
+                "performanceUser": "Very basic specs"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 85,
+        "fields": {
+            "brand": "Vivo",
+            "model": "Y21",
+            "price": 20000,
+            "quantity": 125,
+            "reviews": {
+                "entryLevel": "Basic Vivo phone",
+                "designUser": "Nice colors",
+                "performanceUser": "Very basic MediaTek"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 86,
+        "fields": {
+            "brand": "Realme",
+            "model": "C30",
+            "price": 15000,
+            "quantity": 145,
+            "reviews": {
+                "ultraBudget": "Cheapest Realme",
+                "basicUser": "Good for basics",
+                "performanceUser": "Unisoc is very basic"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 87,
+        "fields": {
+            "brand": "Motorola",
+            "model": "E32",
+            "price": 18000,
+            "quantity": 120,
+            "reviews": {
+                "stockAndroid": "Clean Android",
+                "budgetUser": "Good for price",
+                "performanceUser": "Very basic Unisoc"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 88,
+        "fields": {
+            "brand": "Nokia",
+            "model": "C21",
+            "price": 16000,
+            "quantity": 110,
+            "reviews": {
+                "durabilityFan": "Nokia build quality",
+                "basicUser": "Good basic phone",
+                "performanceUser": "Very basic Unisoc"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 89,
+        "fields": {
+            "brand": "Tecno",
+            "model": "Spark 10",
+            "price": 15000,
+            "quantity": 140,
+            "reviews": {
+                "ultraBudget": "Cheapest decent phone",
+                "basicUser": "Good for basics",
+                "performanceUser": "Very basic MediaTek"
+            }
+        }
+    },
+    {
+        "model": "chatbot.product",
+        "pk": 90,
+        "fields": {
+            "brand": "Infinix",
+            "model": "Smart 7",
+            "price": 14000,
+            "quantity": 150,
+            "reviews": {
+                "cheapest": "One of the cheapest",
+                "basicUser": "Works for calls",
+                "performanceUser": "Extremely basic"
+            }
+        }
+    }
+]
