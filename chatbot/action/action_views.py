@@ -1,45 +1,18 @@
-import json
-
-from langchain_core.messages import HumanMessage, AIMessage
-from langgraph.checkpoint.memory import MemorySaver
+from rest_framework import generics
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from chatbot.Graph.graph import Graph
-from chatbot.CustomMemorySaver.postgres_memory_saver import PostgresMemorySaver
+from chatbot.Tools.tools import get_smartphone_data
+from chatbot.action.action_filters import ProductFilter
+from chatbot.action.action_serializers import ProductSerializer
+from chatbot.models import Product
 
-memory = MemorySaver()
-class ChatBotAPIView(APIView):
-    def post(self, request, *args, **kwargs):
+class ProductListAPIView(generics.ListAPIView):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+    filterset_class = ProductFilter
 
-        if not request.session.session_key:
-            request.session.save()
-
-        session_id = request.session.session_key
-
-        graph = Graph().setup_graph(checkpoint=memory)
-
-        user_message = request.data.get('messages', '')
-        if not user_message:
-            return Response({"error": "No message provided"}, status=400)
-
-        config = {
-            "configurable": {
-                "thread_id": session_id
-            }
-        }
-
-        human_message = HumanMessage(content=user_message)
-        user = request.user
-        user_information = {
-            "user_id": user.id,
-            "name": user.name,
-            "email": user.email
-        }
-        # print("user_information:", user_information)
-        response = graph.invoke({"messages": [human_message], "user_information": user_information}, config=config)
-        ai_response = response["messages"][-1].content
-
-
-        # print("length of state messages:", len(response["messages"]))
-        # print("summary: ", response.get("summary", "No summary available"))
-        return Response({"messages": ai_response}, status=200)
+class TestAPIView(APIView):
+    def get(self, request, *args, **kwargs):
+        result = get_smartphone_data(search_brand="apple", search_model="14")
+        # print(result)
+        return Response(result, status=200)

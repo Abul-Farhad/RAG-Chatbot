@@ -1,5 +1,5 @@
 import json
-
+from typing import Any
 from langchain_core.documents import Document
 from langchain.tools import tool
 from admin_portal.models import Issue
@@ -87,3 +87,37 @@ def retrieve_smartphone_data(query: str) -> str:
     }, indent=4))
     return final_results
 tools = [create_issue, retrieve_smartphone_data]
+
+
+from chatbot.models import Product
+from chatbot.action.action_filters import ProductFilter
+from chatbot.action.action_serializers import ProductSerializer
+def get_smartphone_data(search_brand: str = '', search_model: str = '', search_review: str = '') -> list[dict[str, Any]]:
+    """
+        Retrieve smartphone data and product list based on search criteria.
+
+        Args:
+            search_brand (str): Brand name to search for.
+            search_model (str): Model name to search for.
+            search_review (str): Review keyword to search for.
+
+        Returns:
+            list: A list containing dictionaries contains smartphone data and product list.
+    """
+    print("+++ Tool: get_smartphone_data called +++")
+
+    data = {
+        "search_brand": search_brand,
+        "search_model": search_model,
+        "search_review": search_review
+    }
+    print("query params: ", data)
+    queryset = Product.objects.all()
+    filtered_qs = ProductFilter(data = data, queryset=queryset).qs
+    filtered_qs = filtered_qs.order_by('-price')
+    serializer = ProductSerializer(instance=filtered_qs, many=True)
+
+    return serializer.data[:10]
+
+
+

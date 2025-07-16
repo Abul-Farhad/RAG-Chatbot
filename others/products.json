@@ -1,0 +1,992 @@
+[
+    {
+        "Brand": "Apple",
+        "Model": "iPhone 16 Pro",
+        "Price": 120000,
+        "Quantity": 45,
+        "reviews": {
+            "techLover42": "Amazing camera quality!",
+            "mobileExpert": "Worth every penny",
+            "newUser": "Battery life could be better"
+        }
+    },
+    {
+        "Brand": "Samsung",
+        "Model": "Galaxy S24 Ultra",
+        "Price": 115000,
+        "Quantity": 38,
+        "reviews": {
+            "androidFan": "Best Android phone ever!",
+            "photographyPro": "200MP camera is incredible",
+            "casualUser": "Too big for my hands"
+        }
+    },
+    {
+        "Brand": "Xiaomi",
+        "Model": "Mi 14 Pro",
+        "Price": 85000,
+        "Quantity": 72,
+        "reviews": {
+            "budgetBuyer": "Great value for money",
+            "gamer123": "Lag-free performance",
+            "oldCustomer": "MIUI has too many ads"
+        }
+    },
+    {
+        "Brand": "OnePlus",
+        "Model": "12 Pro",
+        "Price": 95000,
+        "Quantity": 56,
+        "reviews": {
+            "oxygenOSfan": "Cleanest Android experience",
+            "speedDemon": "Blazing fast charging",
+            "critic101": "Camera not flagship quality"
+        }
+    },
+    {
+        "Brand": "Google",
+        "Model": "Pixel 8 Pro",
+        "Price": 105000,
+        "Quantity": 29,
+        "reviews": {
+            "photoGeek": "Best computational photography",
+            "aiEnthusiast": "AI features are revolutionary",
+            "batteryUser": "Battery drains too fast"
+        }
+    },
+    {
+        "Brand": "Oppo",
+        "Model": "Find X7",
+        "Price": 92000,
+        "Quantity": 41,
+        "reviews": {
+            "designLover": "Most beautiful phone design",
+            "selfieExpert": "Front camera is amazing",
+            "powerUser": "ColorOS needs improvement"
+        }
+    },
+    {
+        "Brand": "Vivo",
+        "Model": "X100 Pro",
+        "Price": 88000,
+        "Quantity": 63,
+        "reviews": {
+            "cameraPro": "Zeiss optics are superb",
+            "musicLover": "Best audio quality",
+            "minimalist": "Too many pre-installed apps"
+        }
+    },
+    {
+        "Brand": "Realme",
+        "Model": "GT 3 Pro",
+        "Price": 65000,
+        "Quantity": 89,
+        "reviews": {
+            "performanceBuff": "Flagship specs at mid-range price",
+            "youngUser": "Cool design with LED back",
+            "seniorUser": "UI is too complicated"
+        }
+    },
+    {
+        "Brand": "Nothing",
+        "Model": "Phone (3)",
+        "Price": 75000,
+        "Quantity": 34,
+        "reviews": {
+            "techEnthusiast": "Unique transparent design",
+            "glyphFan": "LED interface is innovative",
+            "practicalUser": "Gimmicky features"
+        }
+    },
+    {
+        "Brand": "Asus",
+        "Model": "ROG Phone 7",
+        "Price": 110000,
+        "Quantity": 22,
+        "reviews": {
+            "mobileGamer": "Best gaming phone period",
+            "streamerPro": "Built-in cooling is awesome",
+            "normalUser": "Too heavy for daily use"
+        }
+    },
+    {
+        "Brand": "Apple",
+        "Model": "iPhone 15",
+        "Price": 95000,
+        "Quantity": 58,
+        "reviews": {
+            "appleFan": "Classic iPhone experience",
+            "upgrader": "Good upgrade from iPhone 12",
+            "valueCritic": "Not enough new features"
+        }
+    },
+    {
+        "Brand": "Samsung",
+        "Model": "Galaxy Z Fold 5",
+        "Price": 165000,
+        "Quantity": 15,
+        "reviews": {
+            "earlyAdopter": "Future of smartphones",
+            "productivityPro": "Great for multitasking",
+            "durabilityWorrier": "Still nervous about folding screen"
+        }
+    },
+    {
+        "Brand": "Huawei",
+        "Model": "P60 Pro",
+        "Price": 105000,
+        "Quantity": 27,
+        "reviews": {
+            "cameraExpert": "Leica cameras are unmatched",
+            "chinaMarket": "Best phone without Google",
+            "googleUser": "App ecosystem is problematic"
+        }
+    },
+    {
+        "Brand": "Motorola",
+        "Model": "Edge 40 Ultra",
+        "Price": 82000,
+        "Quantity": 36,
+        "reviews": {
+            "stockAndroidFan": "Clean Android experience",
+            "batteryLife": "2-day battery easily",
+            "cameraCritic": "Software processing could be better"
+        }
+    },
+    {
+        "Brand": "Nokia",
+        "Model": "X50 5G",
+        "Price": 55000,
+        "Quantity": 64,
+        "reviews": {
+            "nostalgiaUser": "Nokia is back!",
+            "durabilityFan": "Built like a tank",
+            "performanceUser": "Mid-range specs at mid-range price"
+        }
+    },
+    {
+        "Brand": "Sony",
+        "Model": "Xperia 1 V",
+        "Price": 125000,
+        "Quantity": 18,
+        "reviews": {
+            "photographer": "Pro-level camera controls",
+            "mediaConsumer": "Best smartphone display",
+            "averageUser": "Too expensive for what it offers"
+        }
+    },
+    {
+        "Brand": "Apple",
+        "Model": "iPhone SE (2024)",
+        "Price": 65000,
+        "Quantity": 72,
+        "reviews": {
+            "smallPhoneFan": "Perfect compact size",
+            "budgetApple": "Great way into Apple ecosystem",
+            "modernUser": "Outdated design"
+        }
+    },
+    {
+        "Brand": "Samsung",
+        "Model": "Galaxy A54",
+        "Price": 45000,
+        "Quantity": 95,
+        "reviews": {
+            "valueBuyer": "Best mid-range phone",
+            "longTermUser": "Gets 4 years of updates",
+            "performanceSeeker": "Could use more RAM"
+        }
+    },
+    {
+        "Brand": "Xiaomi",
+        "Model": "Redmi Note 13 Pro+",
+        "Price": 42000,
+        "Quantity": 110,
+        "reviews": {
+            "bangForBuck": "Unbeatable at this price",
+            "chinaPhoneFan": "MIUI keeps improving",
+            "updateWorrier": "Only 2 years of updates"
+        }
+    },
+    {
+        "Brand": "OnePlus",
+        "Model": "Nord 3",
+        "Price": 50000,
+        "Quantity": 68,
+        "reviews": {
+            "formerFlagship": "Flagship features at half price",
+            "oxygenOSlover": "Clean software experience",
+            "cameraUser": "Average camera performance"
+        }
+    },
+    {
+        "Brand": "Google",
+        "Model": "Pixel 7a",
+        "Price": 55000,
+        "Quantity": 53,
+        "reviews": {
+            "androidPurist": "Best stock Android experience",
+            "aiFan": "Magic Eraser is magical",
+            "hardwareCritic": "Feels cheap compared to others"
+        }
+    },
+    {
+        "Brand": "Oppo",
+        "Model": "Reno 10 Pro",
+        "Price": 60000,
+        "Quantity": 47,
+        "reviews": {
+            "selfieLover": "Best front camera under 70k",
+            "designEnthusiast": "Beautiful gradient colors",
+            "performanceUser": "Mediocre chipset"
+        }
+    },
+    {
+        "Brand": "Vivo",
+        "Model": "V29 Pro",
+        "Price": 58000,
+        "Quantity": 62,
+        "reviews": {
+            "portraitMaster": "Best portrait mode",
+            "styleUser": "Sleek and lightweight",
+            "uiHater": "Funtouch OS needs work"
+        }
+    },
+    {
+        "Brand": "Realme",
+        "Model": "11 Pro+",
+        "Price": 48000,
+        "Quantity": 84,
+        "reviews": {
+            "fastCharger": "100W charging is insane",
+            "youthUser": "Trendy design",
+            "brandSkeptic": "Realme needs better brand image"
+        }
+    },
+    {
+        "Brand": "Nothing",
+        "Model": "Phone (2a)",
+        "Price": 40000,
+        "Quantity": 76,
+        "reviews": {
+            "glyphLover": "Unique design at this price",
+            "techEnthusiast": "Great specs for money",
+            "mainstreamUser": "Weird brand name"
+        }
+    },
+    {
+        "Brand": "Asus",
+        "Model": "Zenfone 10",
+        "Price": 75000,
+        "Quantity": 29,
+        "reviews": {
+            "compactPhoneFan": "Perfect small flagship",
+            "audioPhile": "Best headphone jack output",
+            "cameraUser": "Average camera system"
+        }
+    },
+    {
+        "Brand": "Apple",
+        "Model": "iPhone 14 Plus",
+        "Price": 90000,
+        "Quantity": 41,
+        "reviews": {
+            "bigScreenFan": "Great battery life",
+            "lateAdopter": "Same design as 13",
+            "valueCritic": "60Hz in 2024? Really?"
+        }
+    },
+    {
+        "Brand": "Samsung",
+        "Model": "Galaxy S23 FE",
+        "Price": 70000,
+        "Quantity": 55,
+        "reviews": {
+            "exynosHater": "Thankfully has Snapdragon",
+            "fanEditionFan": "Great value flagship",
+            "sPenUser": "Miss the Note series"
+        }
+    },
+    {
+        "Brand": "Xiaomi",
+        "Model": "Black Shark 6",
+        "Price": 85000,
+        "Quantity": 23,
+        "reviews": {
+            "esportsGamer": "Best gaming triggers",
+            "performanceUser": "No thermal throttling",
+            "normalUser": "Too aggressive design"
+        }
+    },
+    {
+        "Brand": "OnePlus",
+        "Model": "10T",
+        "Price": 75000,
+        "Quantity": 38,
+        "reviews": {
+            "speedFreak": "Fastest charging available",
+            "oxygenOSfan": "Still prefer older versions",
+            "alertSliderFan": "Why remove the alert slider?"
+        }
+    },
+    {
+        "Brand": "Google",
+        "Model": "Pixel Fold",
+        "Price": 150000,
+        "Quantity": 12,
+        "reviews": {
+            "foldableFan": "Best foldable software",
+            "androidDev": "Pure Android on foldable",
+            "durabilityWorrier": "Screen crease visible"
+        }
+    },
+    {
+        "Brand": "Oppo",
+        "Model": "Find N2 Flip",
+        "Price": 110000,
+        "Quantity": 19,
+        "reviews": {
+            "flipPhoneFan": "Most functional cover screen",
+            "styleUser": "So compact when folded",
+            "batteryCritic": "Small battery for price"
+        }
+    },
+    {
+        "Brand": "Vivo",
+        "Model": "X Flip",
+        "Price": 105000,
+        "Quantity": 16,
+        "reviews": {
+            "fashionUser": "Beautiful vegan leather",
+            "selfieLover": "Great hinge for angles",
+            "powerUser": "Not for heavy multitasking"
+        }
+    },
+    {
+        "Brand": "Realme",
+        "Model": "GT Neo 5",
+        "Price": 52000,
+        "Quantity": 67,
+        "reviews": {
+            "speedDemon": "240W charging is future",
+            "techEnthusiast": "LED back is cool",
+            "casualUser": "Overkill for my needs"
+        }
+    },
+    {
+        "Brand": "Nothing",
+        "Model": "Phone (1)",
+        "Price": 50000,
+        "Quantity": 42,
+        "reviews": {
+            "firstGenUser": "Amazing for first attempt",
+            "glyphLover": "Unique notification system",
+            "mainstreamUser": "Camera needs improvement"
+        }
+    },
+    {
+        "Brand": "Asus",
+        "Model": "ROG Phone 6D",
+        "Price": 95000,
+        "Quantity": 21,
+        "reviews": {
+            "hardcoreGamer": "Air triggers are game-changing",
+            "streamer": "Best gaming accessories",
+            "normalUser": "Too thick and heavy"
+        }
+    },
+    {
+        "Brand": "Apple",
+        "Model": "iPhone 14 Pro Max",
+        "Price": 130000,
+        "Quantity": 33,
+        "reviews": {
+            "proUser": "Dynamic Island is useful",
+            "photographer": "48MP RAW is pro-level",
+            "valueCritic": "Too expensive for minor upgrades"
+        }
+    },
+    {
+        "Brand": "Samsung",
+        "Model": "Galaxy Z Flip 5",
+        "Price": 115000,
+        "Quantity": 25,
+        "reviews": {
+            "styleUser": "Most stylish phone",
+            "compactFan": "Fits in small pockets",
+            "batteryUser": "Battery could be better"
+        }
+    },
+    {
+        "Brand": "Xiaomi",
+        "Model": "13T Pro",
+        "Price": 75000,
+        "Quantity": 48,
+        "reviews": {
+            "leicaFan": "Leica tuning makes difference",
+            "performanceUser": "Dimensity 9200+ is powerful",
+            "miuiHater": "Still too many ads"
+        }
+    },
+    {
+        "Brand": "OnePlus",
+        "Model": "11R",
+        "Price": 65000,
+        "Quantity": 59,
+        "reviews": {
+            "valueBuyer": "Flagship chip at lower price",
+            "gamer": "Great cooling system",
+            "cameraUser": "No Hasselblad tuning"
+        }
+    },
+    {
+        "Brand": "Google",
+        "Model": "Pixel 7",
+        "Price": 80000,
+        "Quantity": 37,
+        "reviews": {
+            "androidLover": "Best software experience",
+            "photographyFan": "Magic Eraser is useful",
+            "hardwareCritic": "Tensor chip needs work"
+        }
+    },
+    {
+        "Brand": "Oppo",
+        "Model": "A98 5G",
+        "Price": 38000,
+        "Quantity": 88,
+        "reviews": {
+            "budgetUser": "Great 5G phone under 40k",
+            "batteryLife": "2-day battery easily",
+            "performanceUser": "Only Snapdragon 4 series"
+        }
+    },
+    {
+        "Brand": "Vivo",
+        "Model": "T2 Pro",
+        "Price": 42000,
+        "Quantity": 74,
+        "reviews": {
+            "amoledLover": "Great AMOLED at this price",
+            "selfieUser": "Good front camera",
+            "gamer": "Not for heavy gaming"
+        }
+    },
+    {
+        "Brand": "Realme",
+        "Model": "C55",
+        "Price": 25000,
+        "Quantity": 120,
+        "reviews": {
+            "entryLevel": "Best phone under 25k",
+            "miniCapUser": "Mini capsule is useful",
+            "performanceUser": "Only Helio G88"
+        }
+    },
+    {
+        "Brand": "Nothing",
+        "Model": "Phone (2)",
+        "Price": 70000,
+        "Quantity": 45,
+        "reviews": {
+            "glyphLover": "Improved glyph interface",
+            "designFan": "Unique transparent design",
+            "mainstreamUser": "Still niche appeal"
+        }
+    },
+    {
+        "Brand": "Asus",
+        "Model": "Zenfone 9",
+        "Price": 65000,
+        "Quantity": 31,
+        "reviews": {
+            "compactFan": "Perfect one-hand size",
+            "audioPhile": "Great headphone output",
+            "cameraUser": "Average camera performance"
+        }
+    },
+    {
+        "Brand": "Apple",
+        "Model": "iPhone 13",
+        "Price": 75000,
+        "Quantity": 52,
+        "reviews": {
+            "valueApple": "Best value iPhone now",
+            "batteryUser": "Great battery life",
+            "displayCritic": "60Hz feels outdated"
+        }
+    },
+    {
+        "Brand": "Samsung",
+        "Model": "Galaxy M54",
+        "Price": 50000,
+        "Quantity": 68,
+        "reviews": {
+            "batteryKing": "7000mAh lasts forever",
+            "midRangeUser": "Good all-rounder",
+            "performanceUser": "Exynos could be better"
+        }
+    },
+    {
+        "Brand": "Xiaomi",
+        "Model": "Poco F5",
+        "Price": 45000,
+        "Quantity": 79,
+        "reviews": {
+            "performanceBuff": "Snapdragon 7+ Gen 2 is flagship-level",
+            "gamer": "Great for gaming",
+            "miuiHater": "Too many MIUI bugs"
+        }
+    },
+    {
+        "Brand": "OnePlus",
+        "Model": "Nord CE 3",
+        "Price": 35000,
+        "Quantity": 92,
+        "reviews": {
+            "budgetUser": "Good core experience",
+            "oxygenOSfan": "Clean software",
+            "cameraUser": "Basic camera setup"
+        }
+    },
+    {
+        "Brand": "Google",
+        "Model": "Pixel 6a",
+        "Price": 50000,
+        "Quantity": 61,
+        "reviews": {
+            "androidPurist": "Best software updates",
+            "valueBuyer": "Tensor chip at good price",
+            "displayCritic": "Only 60Hz display"
+        }
+    },
+    {
+        "Brand": "Oppo",
+        "Model": "Reno 8T",
+        "Price": 40000,
+        "Quantity": 73,
+        "reviews": {
+            "selfieLover": "Great 108MP camera",
+            "designUser": "Nice curved display",
+            "performanceUser": "Helio chip is weak"
+        }
+    },
+    {
+        "Brand": "Vivo",
+        "Model": "Y56",
+        "Price": 30000,
+        "Quantity": 105,
+        "reviews": {
+            "budgetBuyer": "Good AMOLED under 30k",
+            "batteryUser": "5000mAh lasts long",
+            "performanceUser": "Only Snapdragon 680"
+        }
+    },
+    {
+        "Brand": "Realme",
+        "Model": "10 Pro+",
+        "Price": 42000,
+        "Quantity": 81,
+        "reviews": {
+            "displayLover": "Great curved AMOLED",
+            "fastCharger": "67W charging is fast",
+            "performanceUser": "Dimensity 1080 is mid-range"
+        }
+    },
+    {
+        "Brand": "Nothing",
+        "Model": "Phone (1) Special Edition",
+        "Price": 55000,
+        "Quantity": 28,
+        "reviews": {
+            "collector": "Unique white color",
+            "glyphFan": "Same great glyph interface",
+            "valueCritic": "Just a color change for more money"
+        }
+    },
+    {
+        "Brand": "Asus",
+        "Model": "ROG Phone 5s",
+        "Price": 85000,
+        "Quantity": 19,
+        "reviews": {
+            "gamer": "Best touch response",
+            "accessoryFan": "Cool external fan",
+            "normalUser": "Too gamer-centric"
+        }
+    },
+    {
+        "Brand": "Apple",
+        "Model": "iPhone 12",
+        "Price": 60000,
+        "Quantity": 47,
+        "reviews": {
+            "entryApple": "Cheapest way to iOS",
+            "batteryCritic": "Small battery",
+            "displayUser": "OLED is still good"
+        }
+    },
+    {
+        "Brand": "Samsung",
+        "Model": "Galaxy A34",
+        "Price": 40000,
+        "Quantity": 89,
+        "reviews": {
+            "valueBuyer": "Great Samsung under 40k",
+            "updateLover": "4 years of updates",
+            "performanceUser": "Exynos is mediocre"
+        }
+    },
+    {
+        "Brand": "Xiaomi",
+        "Model": "Redmi 12 5G",
+        "Price": 25000,
+        "Quantity": 115,
+        "reviews": {
+            "budget5G": "Cheapest 5G phone",
+            "basicUser": "Good for basics",
+            "performanceUser": "Only Snapdragon 4 Gen 1"
+        }
+    },
+    {
+        "Brand": "OnePlus",
+        "Model": "Nord N30",
+        "Price": 30000,
+        "Quantity": 97,
+        "reviews": {
+            "budget5G": "Good 5G at this price",
+            "oxygenOSfan": "Cleaner than ColorOS",
+            "performanceUser": "Only Snapdragon 695"
+        }
+    },
+    {
+        "Brand": "Google",
+        "Model": "Pixel 5a",
+        "Price": 45000,
+        "Quantity": 43,
+        "reviews": {
+            "cameraLover": "Great camera for price",
+            "stockAndroid": "Clean software",
+            "hardwareCritic": "Older Snapdragon 765G"
+        }
+    },
+    {
+        "Brand": "Oppo",
+        "Model": "A78",
+        "Price": 32000,
+        "Quantity": 102,
+        "reviews": {
+            "batteryUser": "67W charging at this price",
+            "basicUser": "Good for daily use",
+            "gamer": "Not for gaming"
+        }
+    },
+    {
+        "Brand": "Vivo",
+        "Model": "Y22s",
+        "Price": 28000,
+        "Quantity": 110,
+        "reviews": {
+            "batteryKing": "5000mAh lasts 2 days",
+            "basicUser": "Good enough",
+            "performanceUser": "Only Snapdragon 680"
+        }
+    },
+    {
+        "Brand": "Realme",
+        "Model": "C35",
+        "Price": 22000,
+        "Quantity": 125,
+        "reviews": {
+            "entryLevel": "Best under 25k",
+            "batteryUser": "Great battery life",
+            "performanceUser": "Only Unisoc chip"
+        }
+    },
+    {
+        "Brand": "Nothing",
+        "Model": "Phone (1) Lite",
+        "Price": 35000,
+        "Quantity": 64,
+        "reviews": {
+            "glyphFan": "Same design language",
+            "budgetUser": "More affordable Nothing",
+            "performanceUser": "Mid-range specs"
+        }
+    },
+    {
+        "Brand": "Asus",
+        "Model": "Zenfone 8",
+        "Price": 55000,
+        "Quantity": 27,
+        "reviews": {
+            "compactFan": "Perfect small phone",
+            "audioPhile": "Great audio quality",
+            "cameraUser": "Average cameras"
+        }
+    },
+    {
+        "Brand": "Apple",
+        "Model": "iPhone SE (2022)",
+        "Price": 50000,
+        "Quantity": 59,
+        "reviews": {
+            "homeButtonFan": "Last home button iPhone",
+            "performanceUser": "A15 is powerful",
+            "designCritic": "Ancient design"
+        }
+    },
+    {
+        "Brand": "Samsung",
+        "Model": "Galaxy F14",
+        "Price": 28000,
+        "Quantity": 98,
+        "reviews": {
+            "batteryUser": "6000mAh is massive",
+            "budgetUser": "Good Samsung under 30k",
+            "performanceUser": "Exynos is weak"
+        }
+    },
+    {
+        "Brand": "Xiaomi",
+        "Model": "Redmi A2",
+        "Price": 15000,
+        "Quantity": 150,
+        "reviews": {
+            "ultraBudget": "Cheapest decent phone",
+            "basicUser": "Good for calls and WhatsApp",
+            "performanceUser": "Very basic specs"
+        }
+    },
+    {
+        "Brand": "OnePlus",
+        "Model": "Nord CE 2 Lite",
+        "Price": 28000,
+        "Quantity": 87,
+        "reviews": {
+            "budget5G": "Cheapest OnePlus 5G",
+            "brandLover": "OnePlus experience",
+            "performanceUser": "Only Snapdragon 695"
+        }
+    },
+    {
+        "Brand": "Google",
+        "Model": "Pixel 4a",
+        "Price": 35000,
+        "Quantity": 39,
+        "reviews": {
+            "cameraLover": "Great camera still",
+            "compactUser": "Perfect size",
+            "hardwareCritic": "Old Snapdragon 730G"
+        }
+    },
+    {
+        "Brand": "Oppo",
+        "Model": "A17",
+        "Price": 20000,
+        "Quantity": 130,
+        "reviews": {
+            "entryLevel": "Basic smartphone",
+            "batteryUser": "Good battery life",
+            "performanceUser": "Very basic MediaTek"
+        }
+    },
+    {
+        "Brand": "Vivo",
+        "Model": "Y16",
+        "Price": 22000,
+        "Quantity": 118,
+        "reviews": {
+            "budgetUser": "Good design for price",
+            "basicUser": "Fine for social media",
+            "gamer": "Not for games"
+        }
+    },
+    {
+        "Brand": "Realme",
+        "Model": "C33",
+        "Price": 18000,
+        "Quantity": 140,
+        "reviews": {
+            "ultraBudget": "Cheapest Realme",
+            "firstPhone": "Good first smartphone",
+            "performanceUser": "Very basic Unisoc"
+        }
+    },
+    {
+        "Brand": "Motorola",
+        "Model": "G32",
+        "Price": 25000,
+        "Quantity": 92,
+        "reviews": {
+            "stockAndroid": "Clean Android experience",
+            "budgetUser": "Good all-rounder",
+            "performanceUser": "Only Snapdragon 680"
+        }
+    },
+    {
+        "Brand": "Nokia",
+        "Model": "G21",
+        "Price": 23000,
+        "Quantity": 85,
+        "reviews": {
+            "durabilityFan": "Nokia build quality",
+            "updateLover": "3 years of updates",
+            "performanceUser": "Unisoc chip is weak"
+        }
+    },
+    {
+        "Brand": "Tecno",
+        "Model": "Camon 20",
+        "Price": 30000,
+        "Quantity": 78,
+        "reviews": {
+            "cameraLover": "Good cameras for price",
+            "designUser": "Nice leather finish",
+            "performanceUser": "Only Helio G99"
+        }
+    },
+    {
+        "Brand": "Infinix",
+        "Model": "Note 30",
+        "Price": 28000,
+        "Quantity": 89,
+        "reviews": {
+            "batteryUser": "68W fast charging",
+            "budgetUser": "Good features for price",
+            "performanceUser": "Only Helio G99"
+        }
+    },
+    {
+        "Brand": "Apple",
+        "Model": "iPhone 11",
+        "Price": 45000,
+        "Quantity": 62,
+        "reviews": {
+            "valueApple": "Cheapest good iPhone",
+            "LCDUser": "Last good LCD iPhone",
+            "modernUser": "No 5G, thick bezels"
+        }
+    },
+    {
+        "Brand": "Samsung",
+        "Model": "Galaxy A14",
+        "Price": 25000,
+        "Quantity": 105,
+        "reviews": {
+            "budgetUser": "Good Samsung under 25k",
+            "updateLover": "4 years of updates",
+            "performanceUser": "Exynos 850 is weak"
+        }
+    },
+    {
+        "Brand": "Xiaomi",
+        "Model": "Redmi 10",
+        "Price": 20000,
+        "Quantity": 135,
+        "reviews": {
+            "valueBuyer": "Best under 20k",
+            "batteryUser": "5000mAh lasts long",
+            "miuiHater": "Too many ads"
+        }
+    },
+    {
+        "Brand": "OnePlus",
+        "Model": "Nord N20",
+        "Price": 32000,
+        "Quantity": 74,
+        "reviews": {
+            "budget5G": "Good 5G option",
+            "designUser": "Nice flat AMOLED",
+            "performanceUser": "Only Snapdragon 695"
+        }
+    },
+    {
+        "Brand": "Google",
+        "Model": "Pixel 3a",
+        "Price": 30000,
+        "Quantity": 28,
+        "reviews": {
+            "cameraLover": "Still great camera",
+            "compactUser": "Nice small size",
+            "hardwareCritic": "Very old at this point"
+        }
+    },
+    {
+        "Brand": "Oppo",
+        "Model": "A57",
+        "Price": 22000,
+        "Quantity": 115,
+        "reviews": {
+            "budgetUser": "Basic Oppo phone",
+            "selfieLover": "Good front camera",
+            "performanceUser": "Very basic specs"
+        }
+    },
+    {
+        "Brand": "Vivo",
+        "Model": "Y21",
+        "Price": 20000,
+        "Quantity": 125,
+        "reviews": {
+            "entryLevel": "Basic Vivo phone",
+            "designUser": "Nice colors",
+            "performanceUser": "Very basic MediaTek"
+        }
+    },
+    {
+        "Brand": "Realme",
+        "Model": "C30",
+        "Price": 15000,
+        "Quantity": 145,
+        "reviews": {
+            "ultraBudget": "Cheapest Realme",
+            "basicUser": "Good for basics",
+            "performanceUser": "Unisoc is very basic"
+        }
+    },
+    {
+        "Brand": "Motorola",
+        "Model": "E32",
+        "Price": 18000,
+        "Quantity": 120,
+        "reviews": {
+            "stockAndroid": "Clean Android",
+            "budgetUser": "Good for price",
+            "performanceUser": "Very basic Unisoc"
+        }
+    },
+    {
+        "Brand": "Nokia",
+        "Model": "C21",
+        "Price": 16000,
+        "Quantity": 110,
+        "reviews": {
+            "durabilityFan": "Nokia build quality",
+            "basicUser": "Good basic phone",
+            "performanceUser": "Very basic Unisoc"
+        }
+    },
+    {
+        "Brand": "Tecno",
+        "Model": "Spark 10",
+        "Price": 15000,
+        "Quantity": 140,
+        "reviews": {
+            "ultraBudget": "Cheapest decent phone",
+            "basicUser": "Good for basics",
+            "performanceUser": "Very basic MediaTek"
+        }
+    },
+    {
+        "Brand": "Infinix",
+        "Model": "Smart 7",
+        "Price": 14000,
+        "Quantity": 150,
+        "reviews": {
+            "cheapest": "One of the cheapest",
+            "basicUser": "Works for calls",
+            "performanceUser": "Extremely basic"
+        }
+    }
+]
