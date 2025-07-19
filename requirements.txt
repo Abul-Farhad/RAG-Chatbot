@@ -21,3 +21,4 @@ django
 djangorestframework
 langchain-openai
 azure-ai-inference
+RAGnificentAI

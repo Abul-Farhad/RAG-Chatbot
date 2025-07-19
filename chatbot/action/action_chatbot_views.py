@@ -47,8 +47,8 @@ memory = MemorySaver()
 #         return Response({"messages": ai_response}, status=200)
 
 
-from simple_rag import AgentParams, SimpleRag
-rag = SimpleRag()
+from RAGnificentAI import AgentParams, ChatAI
+rag = ChatAI()
 class ChatBotAPIView(APIView):
     def post(self, request, *args, **kwargs):
 
@@ -85,9 +85,9 @@ class ChatBotAPIView(APIView):
             tools=tools,
             user_information=user_information
         )
-        simple_chatbot = rag.initiate_chatbot(params=agentParams)
+        shoppio = rag.initiate_chatbot(params=agentParams)
         # print("user_information:", user_information)
-        response = simple_chatbot.run(messages=user_message)
+        response = shoppio.run(messages=user_message)
         print("AI response: ", response)
 
         # print("length of state messages:", len(response["messages"]))
