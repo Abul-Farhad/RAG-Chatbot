@@ -1,5 +1,5 @@
 """
-URL configuration for RAG project.
+URL configuration for Shoppio project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -19,5 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('rag/', include('chatbot.urls')),
-    path('auth/', include('user.urls'))
+    path('', include('user.urls'))
 ]
